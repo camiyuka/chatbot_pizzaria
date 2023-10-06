@@ -1,5 +1,7 @@
 # chatbot de uma pizzaria
 OBS: não finalizado
+
+
 Este projeto se concentra na criação de um Chatbot para atender clientes de uma pizzaria!
 
 ## Requisitos:
