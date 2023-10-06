@@ -1,0 +1,30 @@
+version: "3.1"
+
+stories:
+
+- story: pizza path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: want_pizza
+  - action: utter_tamanho
+  - intent: tamanho
+  - action: utter_sabores
+  - intent: sabores
+  - action: utter_sabores_ok
+
+- story: thank you
+  steps:
+  - intent: obrigada
+  - action: utter_denada
+
+- story: negação
+  steps: 
+  - intent: deny
+  - action: utter_ok
+
+- story: dizer quais sabores quer
+  steps: 
+  - intent: quais_sabores
+  - action: utter_sabores
+

@@ -1,0 +1,70 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - olá
+    - oi 
+    - oi tudo bem?
+    - como vai?
+
+- intent: goodbye
+  examples: |
+    - tchau
+    - até mais
+    - até
+    - fica com Deus
+
+- intent: affirm
+  examples: |
+    - sim
+    - claro 
+    - com certeza
+    - perfeito
+
+- intent: deny
+  examples: |
+    - não
+    - acho que não
+    - nunca
+
+- intent: bot_challenge
+  examples: |
+    - você é um robô?
+    - estou falando com uma pessoa?
+    - você é real?
+    - estou falando com um bot? 
+    - você é uma pessoa?
+
+- intent: want_pizza
+  examples: |
+    - quero comprar uma pizza
+    - gostaria de encomendar uma pizza
+    - 
+
+- intent: sabores
+  examples: |
+    - quero sabor quatro queijos
+    - quero calabreza
+    - quero uma grande de calabreza e uma média de brócolis com alho
+
+
+- intent: tamanho
+  examples: |
+    - quero uma grande
+    - tamanho médio por favor
+    - pequena.
+    - grande. 
+    - média
+
+- intent: obrigada
+  examples: |
+    - obrigada
+    - obg 
+    - muito obrigada
+
+- intent: quais_sabores
+  examples: |
+    - quais sabores vocês têm?
+    - poderia me passar o cardápio?
+    - hoje têm quais sabores?

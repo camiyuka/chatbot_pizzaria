@@ -1,0 +1,43 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - want_pizza
+  - bot_challenge
+  - sabores
+  - tamanho
+  - obrigada
+  - quais_sabores
+
+responses:
+  utter_greet:
+  - text: "olá! sou o bot da pizzaria da camila, como eu posso te ajudar?"
+
+  utter_sabores:
+  - text: "temos os seguintes sabores: quatro queijos, calabreza, tomate, brócolis, frango com catupiry e carne seca"
+  
+  utter_tamanho:
+  - text: "qual tamanho você deseja:"
+
+  utter_goodbye:
+  - text: "tchau! volte sempre!"
+
+  utter_iamabot:
+  - text: "sou um bot!"
+
+  utter_denada:
+  - text: "fico feliz em te ajudar!"
+
+  utter_sabores_ok:
+  - text: "ok! anotado!"
+
+  utter_ok:
+  - text: "ok!"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
